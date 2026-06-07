@@ -1,0 +1,12 @@
+venv/
+db.sqlite3
+media/
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.txt
+.DS_Store
+statics/scss/
+statics/css/bootstrap/
+statics/js/vendor/
