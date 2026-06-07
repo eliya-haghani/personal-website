@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'ilia',
     'blog',
     "django_ckeditor_5",
+    'rest_framework',
+    'api',
 ]
 
 MIDDLEWARE = [

@@ -9,6 +9,7 @@ urlpatterns = [
     path("blog/", include(("blog.urls", "blog"), namespace="blog")),
     # urlهای سایت
     path("", include("ilia.urls")),
+    path('api/', include('api.urls')),
 ]
 
 if settings.DEBUG:
