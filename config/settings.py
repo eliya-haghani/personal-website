@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     "django_ckeditor_5",
     'rest_framework',
     'api',
+    'rest_framework_simplejwt',
 ]
 
 MIDDLEWARE = [
@@ -170,4 +171,9 @@ CKEDITOR_5_CONFIGS = {
             ]
         }
     }
+}
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    ),
 }
