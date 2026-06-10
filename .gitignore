@@ -10,3 +10,4 @@ venv/
 > statics/scss/
 > statics/css/bootstrap/
 > statics/js/vendor/
+.env
